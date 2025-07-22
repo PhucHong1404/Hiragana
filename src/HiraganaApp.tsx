@@ -195,6 +195,7 @@ const HiraganaApp = () => {
             <div className="space-y-2 max-h-60 overflow-y-auto">
               {Object.keys(hiraganaData).map(group => (
                 <label key={group} className="flex items-center space-x-2 cursor-pointer">
+                🌸
                   <input
                     type="checkbox"
                     checked={selectedGroups.includes(group)}
